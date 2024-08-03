@@ -1,0 +1,357 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+/* SIDEBAR STARTS HERE */
+
+.side{
+  background-color: #fff;
+  /* width: 15%; */
+  background: linear-gradient(180deg,#00a6f6,#f4abc2,#ff7000);
+  height: 100vh;
+  overflow-y: scroll;
+  /* padding:0 0 20px 0; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  box-shadow: 4px 4px 10px rgba(69, 65, 78, 0.06);
+
+}
+
+.logo-div{
+  text-align: center;
+}
+.logo-div img{
+  width: 50%;
+
+}
+
+
+.side .link{
+  width: 100%;
+  margin: auto;
+  padding: 10px 0;
+  color: #fff;
+}
+.side .name{
+  border-bottom: 1px solid #a9afbbd1;
+  padding-bottom: 10px;
+  flex-wrap: wrap;
+  display: flex;
+  margin-bottom: 10px;
+  
+} 
+.side .name a{
+  width: 90%;
+  margin: auto;
+  color: #fff;
+}
+.side .name a h3{
+  font-size: 15px;
+  font-weight: 500;
+  color: #fff !important;
+}
+.side .name div{
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.side .name h4{
+  width: 85%;
+  color: #fff;
+  margin: 0;
+}
+ .accts.active{
+  display: block;
+  font-size: 15px;
+  margin-top: 13px;
+  background-color: transparent;
+  color: #fff;
+}
+.accts.inactive{
+  display: none;
+}
+.side .name .icon{
+  font-size: 10px;
+}
+.side div{
+  width: 95%;
+  margin: auto;
+  display: flex;
+  padding: 9px 0;
+  justify-content: center;
+  align-items: center;
+  transition: all .5s ease-in;
+}
+
+.side section{
+  padding: 0;
+  margin: 0;
+}
+.side div h4{
+  width: 85%;
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.side .link:hover{
+  background-color: #3b82f6;
+  border-radius: 10px;
+  padding: 10px 0;
+  color: #fff;
+}
+
+
+.side a:hover h4{
+  color: #fff;
+}
+
+.side .active{
+  background-color: #3b82f6;
+  padding: 10px 0;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.side .active h4{
+  color: #fff;
+}
+
+.side .bar{
+  background-color: #3b82f6;
+  margin: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.side .bar .icon{
+  margin: auto;  
+  color: #fff;
+  font-size: 23px;
+}
+
+.side2{
+  display: none;
+}
+.media-bar{
+  display: none;
+}
+
+.side .link{
+  text-decoration: none;
+}
+
+/* SIDEBAR ENDS HERE */
+
+
+/* DASHBOARD STARTS HERE */
+
+.dashb{
+  background-color: #C0F2F8 ;
+  overflow-x: hidden;
+}
+.dashb .dashboard{
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashb .dashboard main{
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  /* padding: 25px 0; */
+}
+
+.dashb .dashboard main .left{
+  padding:0 20px;
+}
+
+.dashb .dashboard main .left .admin-file{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dashb .dashboard main .left .admin-file img{
+  width: 55%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.dashb .dashboard main .left .users{
+  width: 100%;
+  padding: 60px 0 20px 0;
+  text-align: center;
+}
+
+.dashb .dashboard main .left .users .d-form h3{
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.dashb .dashboard main .left .users .d-form select{
+  height: 50px;
+  width: 60%;
+  background-color: #fff;
+  border-radius: 8px;
+  outline: none;
+}
+
+
+/* listed product */
+.dashb .dashboard main .left .users .d-list{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.dashb .dashboard main .left .users .d-list h3{
+  font-size: 30px;
+}
+
+.dashb .dashboard main .left .users .d-list p{
+  font-size: 20px;
+}
+.dashb .dashboard main .left .users .p-button{
+  width: 90%;
+  margin: auto;
+  text-align: end;
+  margin-top: 15px;
+}
+
+.dashb .dashboard main .left .users .d-list button{
+  padding: 7px 20px;
+  border-radius: 8px;
+  background-color: #00a6f6;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+}
+
+.dashb .dashboard main .left .users .p-button button{
+  padding: 7px 20px;
+  border-radius: 8px;
+  background-color: #00a6f6;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+}
+.dashb .dashboard main .left .table{
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+
+}
+
+.dashb .dashboard main .left .table table{
+  width: 100%;
+}
+.dashb .dashboard main .left .table table tr{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashb .dashboard main .left .table table tr th{
+  width: 30%;
+  text-align: left;
+  font-size: 21px;
+  margin-bottom: 15px;
+}
+
+.dashb .dashboard main .left .table table tr td{
+  width: 30%;
+  text-align: left;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+
+
+/* Modal */
+.modal1{
+  width: 100%;
+  margin: auto;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+
+.modal1 .modal1-content{
+  width: 50%;
+  background-color: #C0F2F8;
+  border-radius: 10px;
+  padding: 20px 0;
+}
+
+.modal1 .modal1-content .modal-form{
+  width: 92%;
+  margin: auto;
+}
+
+.modal1 .modal1-content .modal-form p{
+  width: 98%;
+  padding-left: 2%;
+  background-color: #090954;
+  height: 50px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.modal1 .modal1-content .modal-form input{
+  width: 98%;
+  padding-left: 2%;
+  background-color: #fff;
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+}
+
+.modal1 .modal1-content .modal-form textarea{
+  width: 98%;
+  padding-left: 2%;
+  background-color: #fff;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+}
+
+.modal1 .modal1-content .modal-form button{
+  width: 100%;
+  background-color: #56A8E4;
+  background: linear-gradient(56deg,#00a6f6,#f4abc2,#ff7000);
+  height: 50px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: none;
+  outline: none;
+  color: #000;
+  font-size: 17px;
+}
+
+
+/* Signin */
+.signin{
+  background: linear-gradient(56deg,#00a6f6,#f4abc2,#ff7000);
+}
